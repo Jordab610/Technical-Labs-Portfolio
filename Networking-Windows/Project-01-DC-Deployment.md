@@ -27,7 +27,7 @@
 2. **ISO Boot:** Attached Windows Server 2022 ISO and bypassed Unattended Installation to ensure manual control over OS version.
 3. **OS Selection:** Selected **Windows Server 2022 Datacenter (Desktop Experience)**.
 4. **Initial Setup:** Renamed Server and setup network logic.
-![Initial Server Setup Proof](Initial-Setup.png)
+![Initial Server Setup Proof](initial-setup.png)
 ---
 
 ## 4. Design Decisions (The "Senior Tech" Perspective)
