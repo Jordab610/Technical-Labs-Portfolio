@@ -9,7 +9,7 @@ I approach systems administration with a **Site Reliability Engineering (SRE)** 
 
 ### 🖥️ [Networking-Windows](./Networking-Windows/) 
 *Enterprise Identity & Core Infrastructure*
-* **Lab 01:** [Windows Server 2022 Installation](./Networking-Windows/Lab01-Windows-Server-Install.md) - *Active*
+* **Lab 01:** [Windows Server 2022 Installation](./Networking-Windows/Project-01-DC-Deployment.md) - *Active*
 
 ### 🐧 [Linux-Administration](./Linux-Administration/)
 *Open Source Systems & Web Services*
