@@ -1,23 +1,22 @@
-# Systems & Automation Lab 🛠️
+# Technical Portfolio: Hybrid Systems Admin & SRE Mindset
 
-A professional repository dedicated to mastering IT automation, system administration, and technical problem-solving. This lab documents my journey of mapping programming logic to real-world infrastructure management.
+This repository is a live documentation of my professional development, bridging the gap between System Administration and Site Reliability Engineering. My goal is to apply software engineering principles to improve infrastructure reliability, scalability, and efficiency.
 
-## 🎯 Project Goals
-* **Efficiency:** Automating repetitive manual tasks to save time and reduce human error.
-* **Reliability:** Building resilient scripts with robust error handling for production environments.
-* **Technical Growth:** Bridging the gap between hardware knowledge (CompTIA A+) and software automation.
+## 🎯 Development Goals
+* **Automate for Reliability:** Utilizing Python to automate repetitive manual tasks, reducing human error.
+* **Resilient Tooling:** Implementing SRE-level standards (try/except blocks, input normalization) to build robust, crash-proof tools.
+* **Infrastructure Management:** Efficiently querying and managing hardware assets using advanced data structures.
 
-## 📂 Learning Phases
-* **Phase 1: Logic & Foundations** (Current)
-    * Data structures, user input, and error handling.
-* **Phase 2: System Operations** (Upcoming)
-    * Interacting with the OS, file systems, and network diagnostic tools.
-* **Phase 3: Integration & APIs** (Upcoming)
-    * Connecting tools to external services and cloud platforms.
+## 📈 Technical Evolution (Project Logs)
 
-## 🚀 Key Achievements
-* **Interactive Asset Finder**: A tool for querying hardware databases with built-in error handling.
-* **Multi-Point Health Monitor**: A script that maps network identities to real-time status reports.
+### Phase 1: Foundational Logic & Data Structures
+*Focus: Mapping infrastructure data and handling user-driven queries efficiently.*
+* **SRE-Mindset Asset Finder (`sre_asset_finder.py`)** - *Feb 9, 2026*
+    * Designed for resilient asset lookups; uses `try/except` for error handling and `.strip().lower()` for input normalization.
+* **Master Health Monitor (`master_check.py`)** - *Feb 6, 2026*
+    * Implemented Dictionary mapping for $O(1)$ efficiency in status lookups.
 
----
-*Technical professional currently supporting Google operations at Astreya.*
+## 🛠️ Tech Stack & Skills
+* **Languages:** Python
+* **Infrastructure:** Linux/Windows Systems Administration, Network Troubleshooting.
+* **Version Control:** Git / GitHub.
