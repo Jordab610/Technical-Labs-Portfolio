@@ -14,7 +14,7 @@ Transitioning from IT Support to System Administration and Engineering. This rep
 
 ### [Project 1: Enterprise Identity Foundation](Networking-Windows/Project-01-AD-Setup.md)
 * **Goal:** Deploying a Windows Server 2022 Domain Controller with proper naming conventions and static IP configuration.
-* **Status:** 🟡 In Progress (Installation Phase)
+* **Status:** - Complete
 
 ### [Project 2: Linux Integration] (Coming Soon)
 * **Goal:** Joining a Linux workstation to a Windows Domain.
