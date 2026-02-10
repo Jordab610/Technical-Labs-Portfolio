@@ -1,31 +1,34 @@
-# Technical Infrastructure & Automation Portfolio
-Managed by: [Jordan Smith]
+# Technical Labs & Systems Engineering Portfolio
 
-## 🎯 Career Objective
-Transitioning from IT Support to System Administration and Engineering. This repository serves as a live documentation of my technical development in managing enterprise-level infrastructure, automation, and cross-platform integration.
-
-## 🛠️ Core Tech Stack
-* **Operating Systems:** Windows Server 2022, Ubuntu Linux
-* **Scripting:** Python, PowerShell
-* **Networking:** DNS, DHCP, Subnetting, Active Directory
-* **Virtualization:** [VirtualBox/VMware]
-
-## 🧪 Current Labs & Projects
-
-### [Project 1: Enterprise Identity Foundation](Networking-Windows/Project-01-AD-Setup.md)
-* **Goal:** Deploying a Windows Server 2022 Domain Controller with proper naming conventions and static IP configuration.
-* **Status:** - Complete
-
-### [Project 2: Linux Integration] (Coming Soon)
-* **Goal:** Joining a Linux workstation to a Windows Domain.
-
-### [Project 3: Automation Scripts](Python-Automation/README.md)
-* **Goal:** Python scripts for user management and system health checks.
+## 🚀 Professional Philosophy
+I approach systems administration with a **Site Reliability Engineering (SRE)** mindset. My goal is to build infrastructure that is not only functional but also documented, automated, and resilient. I focus on reducing "toil" through scripting and maintaining high observability standards.
 
 ---
 
-## 📈 Learning Roadmap (2026)
-- [ ] CompTIA A+ Certification (In Progress)
-- [ ] Windows Server Administration (Active Directory/Group Policy)
-- [ ] Linux System Administration
-- [ ] Python for IT Automation
+## 📂 Project Directory
+
+### 🖥️ [Networking-Windows](./Networking-Windows/) 
+*Enterprise Identity & Core Infrastructure*
+* **Lab 01:** [Windows Server 2022 Installation](./Networking-Windows/Lab01-Windows-Server-Install.md) - *Active*
+
+### 🐧 [Linux-Administration](./Linux-Administration/)
+*Open Source Systems & Web Services*
+* **Status:** Managing core Linux configurations and security hardening.
+
+### 🐍 [Python-Automation](./Python-Automation/)
+*The SRE Toolkit: Reducing Toil*
+* **Status:** Developing scripts to automate repetitive system tasks.
+
+---
+
+## 🛠️ Technical Stack
+* **Systems:** Windows Server 2022, Ubuntu/Debian Linux.
+* **Virtualization:** Oracle VM VirtualBox (Optimized for 32GB RAM host).
+* **Automation:** Python scripting for systems engineering.
+* **Certifications:** Currently studying for CompTIA A+.
+
+---
+
+## 📅 Contact & Growth
+* **Current Role:** IT Support Professional at Astreya (Supporting Google).
+* **Objective:** Transitioning to a System Administrator role with an SRE focus.
