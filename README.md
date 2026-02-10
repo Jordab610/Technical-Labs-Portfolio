@@ -12,14 +12,14 @@ Transitioning from IT Support to System Administration and Engineering. This rep
 
 ## 🧪 Current Labs & Projects
 
-### [Project 1: Enterprise Identity Foundation](Windows-Labs/Project-01-AD-Setup.md)
+### [Project 1: Enterprise Identity Foundation](Networking-Windows/Project-01-AD-Setup.md)
 * **Goal:** Deploying a Windows Server 2022 Domain Controller with proper naming conventions and static IP configuration.
 * **Status:** 🟡 In Progress (Installation Phase)
 
 ### [Project 2: Linux Integration] (Coming Soon)
 * **Goal:** Joining a Linux workstation to a Windows Domain.
 
-### [Project 3: Automation Scripts](Automation/README.md)
+### [Project 3: Automation Scripts](Python-Automation/README.md)
 * **Goal:** Python scripts for user management and system health checks.
 
 ---
