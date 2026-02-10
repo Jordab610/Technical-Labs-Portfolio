@@ -1,25 +1,23 @@
-# Python Systems Automation 🛠️
+# Systems & Automation Lab 🛠️
 
-A collection of scripts designed to automate IT infrastructure, monitor system health, and streamline administrative workflows. 
+A professional repository dedicated to mastering IT automation, system administration, and technical problem-solving. This lab documents my journey of mapping programming logic to real-world infrastructure management.
 
-## 🎯 Project Overview
-This repository serves as my technical lab while I study for the **CompTIA A+** and prepare for a career in **Site Reliability Engineering (SRE)**. 
+## 🎯 Project Goals
+* **Efficiency:** Automating repetitive manual tasks to save time and reduce human error.
+* **Reliability:** Building resilient scripts with robust error handling for production environments.
+* **Technical Growth:** Bridging the gap between hardware knowledge (CompTIA A+) and software automation.
 
-## 📂 Project Structure
-* **Phase-1-Logic/**: Core Python logic, data structures, and monitoring simulations.
-* **Phase-2-System-Tools/**: (Upcoming) Scripts interacting with OS and network layers.
-* **Phase-3-Cloud-APIs/**: (Upcoming) Cloud automation and API integrations.
+## 📂 Learning Phases
+* **Phase 1: Logic & Foundations** (Current)
+    * Data structures, user input, and error handling.
+* **Phase 2: System Operations** (Upcoming)
+    * Interacting with the OS, file systems, and network diagnostic tools.
+* **Phase 3: Integration & APIs** (Upcoming)
+    * Connecting tools to external services and cloud platforms.
 
-## 🚀 Phase 1: Development Timeline
+## 🚀 Key Achievements
+* **Interactive Asset Finder**: A tool for querying hardware databases with built-in error handling.
+* **Multi-Point Health Monitor**: A script that maps network identities to real-time status reports.
 
-* **Health Check Basic (`health_check.py`)** - *Feb 5, 2026*
-    * Initial script using **Lists** and **If/Else** logic to filter server statuses.
-* **Inventory Tracker (`inventory.py`)** - *Feb 6, 2026*
-    * Introduction of **Dictionaries** for fast asset lookups.
-* **Master Health Check (`master_check.py`)** - *Feb 6, 2026*
-    * Advanced script using **Dictionary Mapping** and `.items()` to link hostnames, IPs, and statuses.
-
-## 🛠️ Skills Demonstrated
-* **Data Structures:** Dictionaries `{Key: Value}`, Lists `[]`.
-* **Automation:** For-loops with `.items()` for multi-point data processing.
-* **DevOps Workflow:** Cross-platform Git synchronization (Mac/Windows).
+---
+*Technical professional currently supporting Google operations at Astreya.*
