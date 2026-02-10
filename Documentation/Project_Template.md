@@ -34,11 +34,26 @@
 
 ## 5. Verification & Testing
 * **Metric of Success:** [e.g., Successfully pulled a list of 50 users via Python in < 2 seconds.]
+* **What I ran (Happy Path):** [e.g., Ran script from project root with all services up.]
+* **What I broke on purpose (Sad Path):** [e.g., Stopped one service; script reported it as DOWN with clear message.]
 * **Evidence:** [Link to a screenshot or a code snippet of the output.]
+
+*Tip: Use the [Testing Checklist](./Testing_Checklist.md) so users don’t hit downtime.*
 
 ---
 
-## 6. Future Improvements / Scalability
+## 6. What I Learned (Upskilling)
+*One or two concrete takeaways—concepts, commands, or “why” something works. Helps you retain and shows recruiters you reflect.*
+* [e.g., "Why we use `&> /dev/null` to hide command output when we only care about exit code."]
+* [e.g., "How DNS resolution order (hosts file vs. DNS server) affected my lab connectivity."]
+
+---
+
+## 7. Future Improvements / Scalability
 *How would you make this "Enterprise Grade"?*
 * [e.g., "I would migrate the local VM to an Azure instance to practice Cloud-Hybrid management."]
 * [e.g., "I would rewrite the script to use asynchronous functions for faster data processing."]
+
+---
+
+*When using AI-generated or copied code, run through the [Code Review Checklist](./Code_Review_Checklist.md) before marking the project complete.*

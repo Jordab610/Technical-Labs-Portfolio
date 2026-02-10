@@ -29,6 +29,15 @@ I approach systems administration with a **Site Reliability Engineering (SRE)** 
 
 ---
 
+## 📚 Learning & Upskilling
+I keep a structured approach to growing as a coder and future SRE—including how I **review and improve AI-generated code**, **test for reliability**, and **build infrastructure skills**. This is documented so I stay intentional and so recruiters can see active upskilling.
+
+* **[Learning Path: From IT Support to SRE](./Documentation/Learning_Path_SRE_Upskilling.md)** — Why I'm learning, how I improve code, how I test, and what infrastructure concepts I'm building.
+* **[Code Review Checklist](./Documentation/Code_Review_Checklist.md)** — Used when reviewing my own or AI-produced code before calling it "done."
+* **[Testing Checklist](./Documentation/Testing_Checklist.md)** — Used before "shipping" to reduce risk of downtime and unclear failures.
+
+---
+
 ## 📅 Contact & Growth
 * **Current Role:** IT Support Professional at Astreya (Supporting Google).
 * **Objective:** Transitioning to a System Administrator role with an SRE focus.
