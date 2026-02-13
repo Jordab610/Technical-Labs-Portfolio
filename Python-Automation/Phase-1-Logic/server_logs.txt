@@ -1,0 +1,6 @@
+INFO: web-01 is online
+ERROR: db-01 connection timed out
+INFO: auth-01 is online
+ERROR: backup-01 disk full
+INFO: web-02 is online
+ERROR: db-01 connection timed out
