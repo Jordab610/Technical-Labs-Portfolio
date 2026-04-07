@@ -40,9 +40,8 @@ def run_checks():
     for server in ENDPOINTS:
         print(f"\n{server["name"]} ({server["host"]})")
         ping_result = ping_host(server["host"])
-        http_result = check_http(server["url"])
         
-        ping_status = "UP" if ping_host else "DOWN"
+        ping_status = "UP" if ping_result else "DOWN"
         print(f"  Ping   (Layer 3): {ping_status}")
         
         status_code, response_ms = check_http(server["url"])
