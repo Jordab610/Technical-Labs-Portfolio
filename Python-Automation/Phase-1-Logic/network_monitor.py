@@ -33,6 +33,36 @@ def check_http(url):
         return None, None
     except Exception as e:
         return None, None
+    
+def log_result(name, ping_status, status_code, response_ms):
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")    
+    entry = f"{timestamp} | {name} | PING : {ping_status} | HTTPS : {status_code} | {response_ms}ms\n"
+    with open("network_monitor.log", "a") as f:
+        f.write(entry)
+
+def get_previous_status():
+    previous = {}
+    
+    try:
+        with open("network_monitor.log", "r") as f:
+            
+            filters = [",", "|", "PING", ""]
+            for line in f:
+                parts = line.split("|")
+                name = parts[1].strip 
+                if "UP" in parts[2]:
+                   previous[name] = "UP"
+                else:   
+                   previous[name] = "DOWN"
+    except FileNotFoundError: 
+        pass
+    return previous
+            
+        
+                
+            
+
+
 def run_checks():
     
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
@@ -43,12 +73,14 @@ def run_checks():
         
         ping_status = "UP" if ping_result else "DOWN"
         print(f"  Ping   (Layer 3): {ping_status}")
-        
+
         status_code, response_ms = check_http(server["url"])
         if status_code:
             print(f"   HTTPS   (Layer 7): {status_code} - {response_ms}ms")
         else:
             print(f"  HTTPS   (Layer 7): UNREACHABLE")
+            
+        log_result(server["name"], ping_status, status_code, response_ms)
     
 if __name__ == "__main__":
     run_checks()
