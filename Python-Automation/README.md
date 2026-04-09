@@ -19,7 +19,10 @@ This repository is a live documentation of my professional development, bridging
 * **SRE-Mindset Asset Finder (`sre_asset_finder.py`)** - *Feb 9, 2026*
     * Designed for resilient asset lookups; uses `try/except` for error handling and `.strip().lower()` for input normalization.
 * **Advanced Health Check (`master_check.py`)** - *Feb 6, 2026*
+* **Network Monitoring (`network_monitor.py`)** - *April 8, 2026*
     * Simulates a network scan by mapping inventory to status dictionaries with $O(1)$ efficiency.
+
+
 
 ## 🛠️ Tech Stack & Skills
 * **Languages:** Python (File I/O, Exception Handling, Data Structures)
