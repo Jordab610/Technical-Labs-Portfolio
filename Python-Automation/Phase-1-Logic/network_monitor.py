@@ -1,6 +1,7 @@
 import subprocess
 import requests
 import datetime
+import platform
 
 ENDPOINTS = [
     
@@ -11,14 +12,16 @@ ENDPOINTS = [
 ]
 
 def ping_host(host):
-    import platform
-    if platform == "Windows":
+    # Note: Windows uses '-w' for timeout in milliseconds (e.g., '-w 2000' = 2 seconds),
+    # while Unix uses '-W' for timeout in seconds (e.g., '-W 2' = 2 seconds).
+    if platform.system() == "Windows":
         command = ["ping", "-n", "2","-w","2000", host]
-        success_text = "Lost = 0"
+        success_text = "Received = 2"
+        fallback_text = "Received = 1"
     else:
         command = ["ping", "-c", "2", "-W", "2", host]
         success_text = "0% packet loss"
-        
+        fallback_text = "50% packet loss"
     result = subprocess.run(
         command,
         capture_output=True,
@@ -26,9 +29,11 @@ def ping_host(host):
     )
     if success_text in result.stdout:
         return True
+    elif fallback_text in result.stdout:
+        return True
     else:
         return False
-    
+
 def check_http(url):
     try:
         response = requests.get(url, timeout=5)
