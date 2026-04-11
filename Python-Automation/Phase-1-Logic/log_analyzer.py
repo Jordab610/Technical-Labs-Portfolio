@@ -34,12 +34,16 @@ def analyze_log():
                 uptime_pct = round((stats[name]["up"] / stats[name]["total"]) * 100)
                 avg_ms = round(stats[name]["total_ms"] / stats[name]["total"])
                 print(f"{name:<12}      — Checks: {stats[name]["total"] } | UP: {stats[name]["up"]} | DOWN: {stats[name]["down"]} | Avg Response: {avg_ms}| Uptime: {uptime_pct}%\n")
-    
+         
+            most_reliable = max(stats, key=lambda name: stats[name]["up"] / stats[name]["total"])
+            least_reliable = min(stats, key=lambda name: stats[name]["up"] / stats[name]["total"])
+            fastest_avg = min(stats, key=lambda name: stats[name]["total_ms"] / stats[name]["total"])
+            slowest_avg = max(stats, key=lambda name: stats[name]["total_ms"] / stats[name]["total"])
             
-                
-            
-            
-            
+            print(f"\nMost reliable:  {most_reliable}")
+            print(f"Least reliable: {least_reliable}")
+            print(f"Fastest:        {fastest_avg}")
+            print(f"Slowest:        {slowest_avg}")
                             
     except FileNotFoundError:
         print("No log file found. Run network_monitor.py first.")

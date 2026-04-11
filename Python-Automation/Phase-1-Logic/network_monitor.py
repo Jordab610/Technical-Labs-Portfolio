@@ -57,7 +57,10 @@ def get_previous_status():
     previous = {}
     try:
         with open("network_monitor.log", "r") as f:
+            
             for line in f:
+                if not line.strip(): #skip empty lines
+                    continue
                 parts = line.split(" | ")
                 name = parts[1].strip()
                 if "UP" in parts[2]:
